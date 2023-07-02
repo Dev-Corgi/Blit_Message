@@ -1,19 +1,17 @@
-import React from 'react';
-import { useState } from 'react';
+import React from "react";
 
-import './InputField.css';
+import "./InputField.css";
 
 export default function InputField(props) {
-  const [inputValue, setInputValue] = useState('');
+    const handleInputChange = (event) => {
+        const value = event.target.value;
+        props.onChange(value); // 입력값 변경 시 상위 컴포넌트로 값을 전달
+    };
 
-  const handleInputChange = (event) => {
-    setInputValue(event.target.value);
-  };
-
-  return (
-    <div>
-      <div className="inputfield_namefieldtitle">{props.title}</div>
-      <input className="inputfield_namefieldrect" value={inputValue} onChange={handleInputChange} />
-    </div>
-  );
+    return (
+        <div>
+            <div className="inputfield_namefieldtitle">{props.title}</div>
+            <input className="inputfield_namefieldrect" onChange={handleInputChange} />
+        </div>
+    );
 }
