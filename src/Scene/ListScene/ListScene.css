@@ -1,0 +1,162 @@
+.root {
+    transform-origin: top left;
+    position: relative;
+    width: 390.0002px;
+    height: 843.9999px;
+    align-items: flex-start;
+    background-color: #000;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .list_BackgroundPic {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - 0px);
+    top: 0.237%;
+    bottom: 0%;
+    width: 390px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0) translateX(-50%);
+  }
+  .list_BackgroundBlur {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - 1px);
+    top: 0.237%;
+    bottom: 0%;
+    width: 390px;
+    background-color: #0009;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transform: matrix(1, 0, 0, 1, 0, 0) translateX(-50%);
+  }
+  .list_PartyList {
+    position: absolute;
+    left: calc(50% - 2px);
+    top: calc(50% - -64.5px);
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    gap: 50
+  }
+  .list_List {
+    position: relative;
+    width: 360px;
+    height: 79px;
+    align-items: flex-start;
+    margin-bottom: 29px;
+  }
+  .list_title {
+    transform-origin: top left;
+    color: #fff;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 17.5px);
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: matrix(1, 0, 0, 1, 0, 0) translateY(-50%);
+  }
+  .list_date {
+    transform-origin: top left;
+    color: #fff;
+    font-size: 10px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - 165px);
+    top: 30px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: matrix(0, -1, 1, 0, 0, 0) translateX(-50%);
+    text-align: right center;
+  }
+  .list_Line {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - -1.5px);
+    top: calc(50% - -38.5px);
+    width: 349px;
+    height: 2px;
+    background-color: #fff;
+    transform: matrix(1, 0, 0, 1, 0, 0) translate(-50%, -50%);
+  }
+  .list_TopLine {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - 0.4998px);
+    top: 185.1836px;
+    width: 349px;
+    height: 2px;
+    background-color: #f43465;
+    transform: matrix(0.9962, -0.087, 0.087, 0.9962, 0, 0) translateX(-50%);
+  }
+  .list_BottomLine {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - 0.5002px);
+    bottom: 42.6406px;
+    width: 349px;
+    height: 2px;
+    background-color: #f43465;
+    transform: matrix(0.9962, -0.087, 0.087, 0.9962, 0, 0) translateX(-50%);
+  }
+  .list_AddButton {
+    position: absolute;
+    left: calc(50% - -0.0001px);
+    bottom: 28.9999px;
+    width: 58px;
+    height: 58px;
+    overflow: visible;
+    transform: translateX(-50%);
+  }
+  .icon {
+    width: 100%;
+    height: 100%;
+  }
+  .list_Title {
+    transform-origin: top left;
+    position: absolute;
+    left: 19px;
+    top: 87px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    text-align: left;
+  }
+  .textBlock {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 800;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .textBlock2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 800;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  

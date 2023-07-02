@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: 'The Jamsil';
+  src: url('./Fonts/The Jamsil-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'The Jamsil';
+  src: url('./Fonts/The Jamsil-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'The Jamsil';
+  src: url('./Fonts/The Jamsil-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./Fonts/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./Fonts/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+
+
+
+

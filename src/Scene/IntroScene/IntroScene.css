@@ -1,0 +1,148 @@
+.root {
+    position: relative;
+    width: 390.0001px;
+    height: 844.0001px;
+    align-items: flex-start;
+  }
+  .intro_backgroundImage {
+    position: absolute;
+    left: calc(50% - 0px);
+    top: 0;
+    bottom: 0%;
+    width: 390px;
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateX(-50%);
+  }
+  .intro_foreGround2 {
+    position: absolute;
+    left: calc(50% - 0px);
+    bottom: 0.0001px;
+    width: 390px;
+    height: 844px;
+    background-image: linear-gradient(180deg, #0000 36%, #000f 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: translateX(-50%);
+  }
+  .intro_foreGround1 {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - 0px);
+    top: 844px;
+    width: 390px;
+    height: 844px;
+    background-image: linear-gradient(180deg, #0000 95%, #00000080 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: matrix(-1, 0, 0, -1, 0, 0) translateX(-50%);
+  }
+  .intro_createButton {
+    position: absolute;
+    left: calc(50% - 0.5px);
+    bottom: 95.0001px;
+    width: 327px;
+    height: 53px;
+    align-items: flex-start;
+    border-radius: 25px 10px;
+    background-color: #f43465;
+    overflow: hidden;
+    transform: translateX(-50%);
+  }
+  .intro_RectFrame {
+    position: absolute;
+    left: calc(50% - 0.5px);
+    top: calc(50% - 107px);
+    width: 327px;
+    height: 540px;
+    align-items: flex-start;
+    transform: translate(-50%, -50%);
+  }
+  .intro_Subtitle {
+    position: absolute;
+    left: calc(50% - 4px);
+    top: calc(50% - -220px);
+    width: 259px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+  }
+  .labelWrapper {
+    font-size: 13px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    flex-shrink: 1;
+  }
+  .intro_label {
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .intro_label2 {
+    background-image: linear-gradient(179deg, #ffff 0%, #ffff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .intro_label3 {
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .intro_textBlock {
+    margin-top: 0;
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .intro_Title {
+    color: #fff;
+    font-size: 40px;
+    line-height: 15px;
+    font-family: The Jamsil, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: calc(50% - -170px);
+    width: 259px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+  }
+  .intro_Rect {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 327px;
+    height: 540px;
+    outline: solid 1.5px #fff;
+    outline-offset: -1px;
+    border-radius: 75px 0;
+    transform: translate(-50%, -50%);
+  }
+  

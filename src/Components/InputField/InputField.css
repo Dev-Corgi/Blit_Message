@@ -1,0 +1,29 @@
+  .inputfield_namefieldtitle {
+    transform-origin: top left;
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - 115px);
+    top: calc(50% - 27px);
+    width: 98px;
+    height: 50px;
+    flex-direction: column;
+    transform: matrix(1, 0, 0, 1, 0, 0) translate(-50%, -50%);
+    text-align: left;
+  }
+  .inputfield_namefieldrect {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - -0.5px);
+    top: calc(50% - -23px);
+    width: 327px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: #1d1e24;
+    transform: matrix(1, 0, 0, 1, 0, 0) translate(-50%, -50%);
+    color : #FFFFFF;
+  }
