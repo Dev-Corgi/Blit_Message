@@ -20,7 +20,7 @@ export default function GroupInfoScene() {
             return;
         }
 
-        fetch(`http://localhost:8000/api/meeting/meeting/${id}/`, {
+        fetch(`http://api.chungran.net/api/meeting/meeting/${id}/`, {
             headers: {
                 Authorization: `Bearer ${accessToken}`,
             },

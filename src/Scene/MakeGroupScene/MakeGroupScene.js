@@ -23,7 +23,7 @@ export default function MakeGroupScene() {
 
         const data = { name };
 
-        fetch("http://localhost:8000/api/meeting/meeting/", {
+        fetch("http://api.chungran.net/api/meeting/meeting/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
