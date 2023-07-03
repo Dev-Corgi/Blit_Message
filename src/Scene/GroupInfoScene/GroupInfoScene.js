@@ -8,7 +8,7 @@ import { useNavigate, useParams } from "react-router";
 import { useEffect, useState } from "react";
 
 export default function GroupInfoScene() {
-    const { id } = useParams();
+    const { groupCode } = useParams();
     const navigate = useNavigate();
     const accessToken = localStorage.getItem("accessToken");
     const [meetingData, setMeetingData] = useState(null);
@@ -20,7 +20,7 @@ export default function GroupInfoScene() {
             return;
         }
 
-        fetch(`http://api.chungran.net/api/meeting/meeting/${id}/`, {
+        fetch(`http://api.chungran.net/api/meeting/meeting/${groupCode}/`, {
             headers: {
                 Authorization: `Bearer ${accessToken}`,
             },
@@ -38,7 +38,7 @@ export default function GroupInfoScene() {
                 console.error("Error:", error);
                 // Handle error condition when fetching meeting data fails
             });
-    }, [accessToken, id]);
+    }, [accessToken, groupCode]);
 
     if (!meetingData) {
         // Render loading state or return null
@@ -58,7 +58,7 @@ export default function GroupInfoScene() {
                 ))}
             </div>
             <div className={"group_titleframe"}>
-                <button className="group_startbutton" onClick={() => navigate("/Main")} style={{ background: "none", border: "none", padding: 0 }}>
+                <button className="group_startbutton" onClick={() => navigate(`/Main/${groupCode}`)} style={{ background: "none", border: "none", padding: 0 }}>
                     <img src={img_group_startbutton} alt="Start Button" />
                 </button>
                 <div className={"group_membercount"}>{attendants.length}명 참여중</div>
