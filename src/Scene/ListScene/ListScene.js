@@ -21,7 +21,7 @@ export default function ListScene() {
         }
 
         // API 요청
-        fetch("http://api.chungran.net/api/meeting/meeting", {
+        fetch("https://api.chungran.net/api/meeting/meeting", {
             headers: {
                 Authorization: `Bearer ${accessToken}`,
             },

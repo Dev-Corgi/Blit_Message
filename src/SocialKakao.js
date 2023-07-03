@@ -8,7 +8,7 @@ const loginWithKakao = () => {
                 console.log(`is set?: ${window.Kakao.Auth.getAccessToken()}`);
 
                 // Send access_token to your server to obtain the server access_token
-                const url = "http://api.chungran.net/api/auth/kakao/";
+                const url = "https://api.chungran.net/api/auth/kakao/";
                 const data = {
                     kakao_token: response.access_token,
                 };
