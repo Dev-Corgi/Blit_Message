@@ -45,7 +45,7 @@ export default function GroupInfoScene() {
         return null;
     }
 
-    const { name, created_at, rounds, attendants } = meetingData;
+    const { name, created_at, rounds, attendants, meeting_code } = meetingData;
 
     return (
         <div>
@@ -63,7 +63,7 @@ export default function GroupInfoScene() {
                 </button>
                 <div className={"group_membercount"}>{attendants.length}명 참여중</div>
                 <div className={"group_title"}>{name}</div>
-                <div className={"group_grouptext"}>모임</div>
+                <div className={"group_grouptext"}>모임코드: {meeting_code}</div>
             </div>
         </div>
     );
