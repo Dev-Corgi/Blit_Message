@@ -66,7 +66,7 @@ export default function PayCheckScene() {
                 // API 요청에 대한 응답 처리
                 console.log(responseData);
                 // 성공적으로 처리된 경우 다음 페이지로 이동
-                navigate("/Success");
+                navigate(`/Complete/${groupCode}`);
             })
             .catch((error) => {
                 // API 요청 실패 또는 에러 처리
