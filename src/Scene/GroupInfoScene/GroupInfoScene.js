@@ -63,7 +63,7 @@ export default function GroupInfoScene() {
                 </button>
                 <div className={"group_membercount"}>{attendants.length}명 참여중</div>
                 <div className={"group_title"}>{name}</div>
-                <div className={"group_grouptext"}>모임코드: {meeting_code}</div>
+                <div className={"group_grouptext"}>모임링크: api.chungran.net/meeting/?meeting_code={meeting_code}</div>
             </div>
         </div>
     );
