@@ -27,7 +27,7 @@ export default function RegistKakaoLinkScene() {
                 return;
             }
 
-            fetch("https://api.chungran.net/api/auth/kakao_pay/", {
+            fetch("http://api.chungran.net/api/auth/kakao_pay/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
