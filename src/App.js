@@ -28,9 +28,9 @@ function App() {
                     <Route path="/MakeGroup" element={<MakeGroupScene />} />
                     <Route path="/GroupInfo/:groupCode" element={<GroupInfoScene />} />
                     <Route path="/Main/:groupCode" element={<MainScene />} />
+                    <Route path="/PayCheck/:groupCode" element={<PayCheckScene />} />
                     <Route path="/Result" element={<ResultScene />} />
                     <Route path="/NewIndex" element={<NewIndexScene />} />
-                    <Route path="/PayCheck" element={<PayCheckScene />} />
                     <Route path="/Complete" element={<CompleteScene />} />
                 </Routes>
             </AnimatePresence>

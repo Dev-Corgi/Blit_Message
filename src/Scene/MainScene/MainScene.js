@@ -65,7 +65,7 @@ export default function MainScene(props) {
                 </div>
             ))}
 
-            <button className="main_button" onClick={() => navigate("/PayCheck")} style={{ background: "none", border: "none", padding: 0 }}>
+            <button className="main_button" onClick={() => navigate(`/PayCheck/${groupCode}`)} style={{ background: "none", border: "none", padding: 0 }}>
                 <img src={img_main_button} alt="Input Link Button" />
             </button>
         </div>
