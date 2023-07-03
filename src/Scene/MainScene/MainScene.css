@@ -1,0 +1,407 @@
+.root {
+    transform-origin: top left;
+    position: relative;
+    width: 390.0002px;
+    height: 843.9999px;
+    align-items: flex-start;
+    background-color: #fff;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .main_background {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - 0px);
+    top: 0;
+    bottom: 0%;
+    width: 390px;
+    background-image:/* webpackIgnore: true */ url('/assets/main_background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0) translateX(-50%);
+  }
+  .main_foreground {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - 0px);
+    top: 0;
+    bottom: 0%;
+    width: 390px;
+    background-image: linear-gradient(180deg, #0000 0%, #000f 43%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0) translateX(-50%);
+  }
+  .main_priceframe {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - 0.5001px);
+    top: 68px;
+    width: 327px;
+    height: 180px;
+    align-items: flex-start;
+    transform: matrix(1, 0, 0, 1, 0, 0) translateX(-50%);
+  }
+  .main_priceframeonging {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.01em;
+    position: absolute;
+    left: 73px;
+    top: 132px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .main_priceframemembercount {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.01em;
+    position: absolute;
+    left: 181px;
+    top: 132px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .main_priceframeprice {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - -0.5px);
+    top: 70px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .main_priceframetitle {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 37px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .main_priceframeline {
+    position: absolute;
+    left: calc(50% - -0.5px);
+    top: 134px;
+    width: 2px;
+    height: 15px;
+    background-color: #fff;
+    transform: translateX(-50%);
+  }
+  .main_priceframerect {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 327px;
+    height: 180px;
+    outline: solid 1px #fff;
+    outline-offset: -1px;
+    border-radius: 75px 0;
+  }
+  .main_card {
+    position: absolute;
+    left: calc(50% - 35.5px);
+    top: calc(50% - -66.5px);
+    width: 263.0001px;
+    height: 445.0001px;
+    align-items: flex-start;
+    transform: translate(-50%, -50%);
+  }
+  .main_cardbackground {
+    transform-origin: top left;
+    position: absolute;
+    left: 0;
+    right: 0%;
+    top: 0%;
+    bottom: 13.0337%;
+    border-radius: 25px;
+    background-image:/* webpackIgnore: true */ url('/assets/main_cardbackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .main_cardforeground {
+    transform-origin: top left;
+    position: absolute;
+    left: 0;
+    right: 0%;
+    top: 0;
+    bottom: 13.0337%;
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #0000 0%, #000f 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .main_cardbottomcard {
+    transform-origin: top left;
+    position: absolute;
+    left: 4.943%;
+    right: 5.7034%;
+    top: 73.4831%;
+    bottom: 0;
+    align-items: flex-start;
+    border-radius: 22px;
+    background-color: #ffffff4d;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .main_cardbottomcard_index {
+    color: #fff;
+    font-size: 17.5px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 6.383%;
+    right: 83.4043%;
+    top: 14.4068%;
+    bottom: 60.1695%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .main_cardbottomcard_storename {
+    color: #fff;
+    font-size: 17.5px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 6.383%;
+    right: 53.1915%;
+    top: 33.8983%;
+    bottom: 40.678%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .main_cardbottomcard_price {
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 68.5106%;
+    right: 5.5319%;
+    top: 16.1017%;
+    bottom: 58.4746%;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .main_cardbottomcard_membercoun {
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 6.383%;
+    right: 71.9149%;
+    top: 67.7966%;
+    bottom: 6.7797%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .main_cardbottomcard_plusbutton {
+    position: absolute;
+    left: 82.9787%;
+    right: 6.383%;
+    top: 71.1864%;
+    bottom: 7.6271%;
+    background-image:/* webpackIgnore: true */ url('/assets/main_cardbottomcard_plusbutton.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main_button {
+    transform-origin: top left;
+    position: absolute;
+    left: calc(50% - 0.4999px);
+    bottom: 24.9999px;
+    width: 327px;
+    height: 53px;
+    align-items: flex-start;
+    border-radius: 25px 10px;
+    background-color: #f43465;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0) translateX(-50%);
+  }
+  .subtract {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 257px;
+    height: 53px;
+    overflow: visible;
+  }
+  .icon {
+    width: 100%;
+    height: 100%;
+  }
+  .unnamed {
+    color: #fff;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - -22.5px);
+    top: 11px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .plus1 {
+    position: absolute;
+    left: 119px;
+    top: 17px;
+    width: 21px;
+    height: 21px;
+    background-image:/* webpackIgnore: true */ url('/assets/plus1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main_card2 {
+    position: absolute;
+    left: calc(50% - -212.5px);
+    top: calc(50% - -56px);
+    width: 207.0001px;
+    height: 350px;
+    align-items: flex-start;
+    transform: translate(-50%, -50%);
+  }
+  .rectangle967 {
+    transform-origin: top left;
+    position: absolute;
+    left: 0;
+    right: 0%;
+    top: 0;
+    bottom: 13.0337%;
+    border-radius: 25px;
+    background-image:/* webpackIgnore: true */ url('/assets/rectangle967.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .frame90 {
+    transform-origin: top left;
+    position: absolute;
+    left: 4.943%;
+    right: 5.7034%;
+    top: 73.4831%;
+    bottom: 0%;
+    align-items: flex-start;
+    border-radius: 22px;
+    background-color: #ffffff4d;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .clubLounge {
+    color: #fff;
+    font-size: 13.7725px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 6.383%;
+    right: 49.3617%;
+    top: 14.4068%;
+    bottom: 60.1695%;
+    flex-direction: column;
+  }
+  ._32500 {
+    color: #fff;
+    font-size: 11.018px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 68.5106%;
+    right: 5.5319%;
+    top: 16.1017%;
+    bottom: 58.4746%;
+    flex-direction: column;
+  }
+  ._12 {
+    color: #fff;
+    font-size: 6.296px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 42.5532%;
+    right: 51.4894%;
+    top: 67.7966%;
+    bottom: 6.7797%;
+    flex-direction: column;
+  }
+  .plus2 {
+    position: absolute;
+    left: 82.9787%;
+    right: 6.383%;
+    top: 71.1864%;
+    bottom: 7.6271%;
+    background-image:/* webpackIgnore: true */ url('/assets/plus2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
