@@ -8,7 +8,11 @@ import GroupInfoScene from "Scene/GroupInfoScene/GroupInfoScene";
 import IntroScene from "Scene/IntroScene/IntroScene";
 import RegistKakaoLinkScene from "Scene/RegistKakaoLinkScene/RegistKakaoLinkScene";
 import ListScene from "Scene/ListScene/ListScene";
-
+import MainScene from "Scene/MainScene/MainScene";
+import NewIndexScene from "Scene/NewIndexScene/NewIndexScene";
+import CompleteScene from "Scene/CompleteScene/CompleteScene";
+import PayCheckScene from "Scene/PayCheckScene/PayCheckScene";
+import ResultScene from "Scene/ResultScene/ResultScene";
 function App() {
   const location = useLocation();
   useEffect(() => {
@@ -28,6 +32,11 @@ function App() {
           <Route path="/List" element={<ListScene/>} />
           <Route path="/MakeGroup" element={<MakeGroupScene/>} />
           <Route path="/RegistKakaoLink" element={<RegistKakaoLinkScene/>} />
+          <Route path="/Main" element={<MainScene/>} />
+          <Route path="/Result" element={<ResultScene/>} />
+          <Route path="/NewIndex" element={<NewIndexScene/>} />
+          <Route path="/PayCheck" element={<PayCheckScene/>} />
+          <Route path="/Complete" element={<CompleteScene/>} />
         </Routes>
       </AnimatePresence>
     </div>
